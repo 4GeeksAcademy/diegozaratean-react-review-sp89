@@ -15,9 +15,11 @@ import Form from './components/Form';
 import Peliculas from './components/Peliculas';
 import Onkey from './components/Onkey';
 import OnSu from './components/Onsu';
+import Counter from './components/Counter';
+import Getdata from './components/Getdata';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <OnSu />
+    <Getdata />
   </React.StrictMode>,
 )
